@@ -1,0 +1,34 @@
+.main{
+	.container{
+		background: url(../images/hero-img.png) no-repeat 100% center;
+	}
+}
+.main-screen{
+	padding: 110px 0;
+	&__header{
+		font-size: 53px;
+		font-weight: $bold;
+		max-width: 450px;
+	}
+	&__text{
+		font-size: 29px;
+		font-weight: $medium;
+	}
+	&__link{
+		color: $red;
+		transition: all .3s;
+		&:hover{
+			color: darken($red, 10%);
+		}
+	}
+	&__btn{
+		width: 275px;
+		height: 58px;
+		display: block;
+		font-size: 23px;
+		color: $white;
+		font-weight: $medium;
+		text-align: center;
+		line-height: 58px;
+	}
+}

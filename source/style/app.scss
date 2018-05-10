@@ -2,12 +2,10 @@
 @import 'common/mixins';
 @import 'common/fonts';
 @import 'common/base';
+@import 'common/sprite-img';
 @import 'blocks/**/*';
-//@import 'common/sprite-img';
 
-/* .retina-sprite-block{
-  @include retina-sprite($abiatec-group);
-} */
+
 
 
 $status-colors: (
@@ -17,3 +15,15 @@ $status-colors: (
   warning: #FF8833,
   danger: #ff1a1a
 );
+
+.button-default{
+	color: $white !important;
+	background-color: $green;
+	border-radius: 50px;
+	box-shadow: 0 2px 0 rgba(42,157,40,1);
+	transition: all .3s;
+	&:hover{
+		background-color: darken($green, 10%);
+		text-decoration: none;
+	}
+}

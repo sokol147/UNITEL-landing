@@ -13,16 +13,7 @@
 		font-weight: $bold;
 	}
 }
-.button-default{
-	color: $white !important;
-	background-color: $green;
-	border-radius: 50px;
-	box-shadow: 0 2px 0 rgba(42,157,40,1);
-	transition: all .3s;
-	&:hover{
-		background-color: darken($green, 10%);
-	}
-}
+
 .button-header{
 	padding: 6px 26px 4px !important;
 }

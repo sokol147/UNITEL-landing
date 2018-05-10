@@ -1,0 +1,17 @@
+.work-with{
+	padding: 76px 0 66px;
+	background-color: rgba(244,246,251,.52);
+	&__header{
+		font-size: 16px;
+		color: $headerColor;
+		font-weight: $medium;
+		margin-bottom: 0;
+	}
+	&__text{
+		max-width: 95px;
+		font-size: 13px;
+		color: $headerColor;
+		font-weight: $medium;
+		margin-bottom: 0;
+	}
+}

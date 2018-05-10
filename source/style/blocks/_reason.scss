@@ -1,0 +1,40 @@
+.reasons{
+	background-color: $lightBlue;
+	padding: 60px 0 78px;
+	&__btn{
+		width: 275px;
+		height: 58px;
+		line-height: 58px;
+		font-size: 23px;
+		font-weight: $medium;
+		text-align: center;
+	}
+	&__icons{
+		margin-bottom: 86px;
+	}
+	&__images{
+		width: 84px;
+		height: 84px;
+	}
+	&__text{
+		font-size: 18px;
+		font-weight: $bold;
+		color: $headerColor;
+	}
+}
+.section__header{
+	margin-bottom: 72px;
+	&-black{
+		font-size: 39px;
+		max-width: 520px;
+		margin: 0 auto;
+		font-weight: $bold;
+		color: $headerColor;
+	}
+	&-red{
+		font-size: 39px;
+		color: $red;
+		width: 100%;
+		font-weight: $bold;
+	}
+}

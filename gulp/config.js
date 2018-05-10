@@ -19,7 +19,7 @@ module.exports = {
         css: './build/templates/css',
         img: './build/templates/images',
         fonts: './build/templates/fonts',
-        spriteImg: './source/images/img',
+        spriteImg: './source/images',
         spriteCss:'./source/style/common'
     },
     watch: {

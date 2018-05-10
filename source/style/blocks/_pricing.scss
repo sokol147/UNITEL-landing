@@ -1,0 +1,21 @@
+.pricing{
+	padding: 88px 0 110px;
+	&__item{
+		box-shadow: 0 3px 34px 0 rgba(0,0,0,.1);
+		border-radius: 7px;
+	}
+}
+.item-free{
+	.item__time{
+		background-color: $red;
+	}
+}
+.item{
+	&__time{
+		color: $white;
+		font-size: 39px;
+		font-weight: $bold;
+		border-radius: 7px 7px 0 0;
+		background-color: $blue;
+	}
+}
