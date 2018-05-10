@@ -1,17 +1,37 @@
 .work-with{
+	&__icon{
+		display: inline-block;
+		box-shadow: 0 0 4px rgba(100,100,100,.5);
+		border-radius: 5px;
+	}
 	padding: 76px 0 66px;
 	background-color: rgba(244,246,251,.52);
 	&__header{
 		font-size: 16px;
 		color: $headerColor;
-		font-weight: $medium;
+		font-weight: $bold;
+		min-width: 100px;
 		margin-bottom: 0;
 	}
 	&__text{
-		max-width: 95px;
 		font-size: 13px;
 		color: $headerColor;
-		font-weight: $medium;
+		font-weight: $bold;
 		margin-bottom: 0;
 	}
+}
+.i-youtube{
+	@include retina-sprite($youtube-group);
+}
+.i-casino{
+	@include retina-sprite($casino-group);
+}
+.i-adult{
+	@include retina-sprite($adult-websites-group);
+}
+.i-android{
+	@include retina-sprite($android-group);
+}
+.i-ios{
+	@include retina-sprite($ios-group);
 }

@@ -5,12 +5,54 @@
 		border-radius: 7px;
 	}
 }
+.item__descr{
+	color: $textColor;
+	font-size: 15px;
+}
 .item-free{
+	.interval{
+		color: $red;
+		font-size: 16px;
+		font-weight: $bold;
+	}
+	.price{
+		color: $red;
+		display: inline-block;
+		font-size: 53px;
+		font-weight: $bold;
+		position: relative;
+		&:before{
+			content: '$';
+			position: absolute;
+			font-size: 18px;
+			left: -15px;
+			top: 17px;
+		}
+	}
 	.item__time{
 		background-color: $red;
 	}
 }
 .item{
+	.interval{
+		color: $blue;
+		font-size: 16px;
+		font-weight: $bold;
+	}
+	.price{
+		display: inline-block;
+		color: $blue;
+		font-size: 53px;
+		font-weight: $bold;
+		position: relative;
+		&:before{
+			content: '$';
+			position: absolute;
+			font-size: 18px;
+			left: -15px;
+			top: 17px;
+		}
+	}
 	&__time{
 		color: $white;
 		font-size: 39px;

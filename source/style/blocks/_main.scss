@@ -32,3 +32,11 @@
 		line-height: 58px;
 	}
 }
+
+@media (max-width: 991px){
+	.main{
+		.container{
+			background: none;
+		}
+	}
+}
