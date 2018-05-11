@@ -10,14 +10,30 @@
 		font-size: 16px;
 		color: $headerColor;
 		font-weight: $bold;
-		min-width: 100px;
+		min-width: 105px;
 		margin-bottom: 0;
+		margin-right: 20px;
 	}
 	&__text{
 		font-size: 13px;
 		color: $headerColor;
 		font-weight: $bold;
 		margin-bottom: 0;
+	}
+}
+.youtube__item{
+	.work-with__text{
+		max-width: 60px;
+	}
+}
+.casino__item{
+	.work-with__text{
+		max-width: 52px;
+	}
+}
+.adult__item{
+	.work-with__text{
+		max-width: 103px;
 	}
 }
 .i-youtube{

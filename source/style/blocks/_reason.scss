@@ -9,9 +9,6 @@
 		font-weight: $medium;
 		text-align: center;
 	}
-	&__icons{
-		margin-bottom: 86px;
-	}
 	&__images{
 		width: 84px;
 		height: 84px;
@@ -20,10 +17,27 @@
 		font-size: 18px;
 		font-weight: $bold;
 		color: $headerColor;
+		position: relative;
+		&:before{
+			content: url(../images/icon-check.svg);
+			height: 21px;
+			width: 21px;
+			left: -25px;
+			top: 1px;
+			position: absolute;
+			display: none;
+		}
+	}
+}
+@media (max-width: 1200px){
+	.reasons__text{
+		&:before{
+			display: block;
+		}
 	}
 }
 .section__header{
-	margin-bottom: 72px;
+	margin-bottom: 5rem;
 	&-black{
 		font-size: 39px;
 		max-width: 520px;
@@ -36,5 +50,16 @@
 		color: $red;
 		width: 100%;
 		font-weight: $bold;
+	}
+}
+@media (max-width: 320px){
+	.section__header-red{
+		font-size: 34px;
+	}
+	.section__header-black{
+		font-size: 28px;
+	}
+	.footer .section__header{
+		font-size: 25px;
 	}
 }

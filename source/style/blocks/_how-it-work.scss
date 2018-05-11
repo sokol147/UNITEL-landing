@@ -1,4 +1,7 @@
 .how{
 	background-color: $lightBlue;
 	padding: 67px 0 78px;
+	&__image{
+		max-width: 100%;
+	}
 }

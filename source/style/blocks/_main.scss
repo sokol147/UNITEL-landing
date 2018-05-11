@@ -4,7 +4,7 @@
 	}
 }
 .main-screen{
-	padding: 110px 0;
+	padding: 7rem 0;
 	&__header{
 		font-size: 53px;
 		font-weight: $bold;
@@ -38,5 +38,13 @@
 		.container{
 			background: none;
 		}
+	}
+}
+@media (max-width: 320px){
+	.main-screen__header{
+		font-size: 35px;
+	}
+	.main-screen__text{
+		font-size: 22px;
 	}
 }
