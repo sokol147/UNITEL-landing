@@ -51,3 +51,36 @@
 .i-ios{
 	@include retina-sprite($ios-group);
 }
+
+@media (max-width: 768px){
+	.work-with__item{
+		width: 33.33%;
+	}
+	.avaliable__list{
+		.work-with__item{
+			width: 50%;
+			justify-content: center;
+		}
+	}
+}
+@media (max-width: 576px){
+	.work-with__header{
+		width: 100%;
+		margin-right: 0;
+	}
+	.work-with__list{
+		width: 100%;
+	}
+}
+@media (max-width: 412px){
+	.avaliable__list{
+		flex-wrap: wrap;
+		width: 100%;
+		.work-with__item{
+			width: 100%;
+			&:first-child{
+				margin-bottom: 10px;
+			}
+		}
+	}
+}

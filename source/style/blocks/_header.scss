@@ -2,12 +2,6 @@
 	font-size: 17px;
 }
 .navbar-nav{
-	.nav-item{
-		margin-left: 37px;
-		&:first-child{
-			margin-left: 0;
-		}
-	}
 	.nav-link{
 		color: $headerColor;
 		font-weight: $bold;
