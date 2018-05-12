@@ -1,0 +1,49 @@
+.thank{
+	&__download{
+		max-width: 360px;
+		color: $textColor;
+		font-size: 15px;
+		font-weight: $medium;
+	}
+	&__question{
+		font-size: 21px;
+		color: $headerColor;
+		font-weight: $medium;
+	}
+	&__message{
+		border-bottom: 1px solid $borderGrey;
+	}
+	&__wrapper{
+		border: 3px solid $borderGrey;
+	}
+	&__header{
+		font-weight: $bold;
+		font-size: 40px;
+		color: $headerColor;
+	}
+	&__subheader{
+		color: $headerColor;
+		font-size: 20px;
+		font-weight: $medium;
+	}
+	&__icon{
+		width: 64px;
+		height: 64px;
+	}
+	.send-to{
+		color: $textColor;
+		font-size: 15px;
+		font-weight: $regular;
+	}
+}
+.i-arrow{
+	display: inline-block;
+	@include retina-sprite($red-arrow-group);
+	margin-left: -55px;
+	margin-bottom: 6px;
+}
+@media (max-width: 765px){
+	.i-arrow{
+		display: none;
+	}
+}
