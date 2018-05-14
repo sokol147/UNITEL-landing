@@ -144,3 +144,23 @@
 	font-weight: $medium;
 	color: $headerColor;
 }
+@media (max-width: 991px){
+	.promo__button{
+		top: 26px;
+	}
+}
+@media (max-width: 480px){
+	.thank__header{
+		font-size: 40px;
+	}
+	.signup__gift--active{
+		font-size: 30px;
+	}
+}
+@media (max-width: 320px){
+	.signup__terms{
+		.custom-control-label{
+			font-size: 12px;
+		}
+	}
+}
