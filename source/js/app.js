@@ -18,4 +18,11 @@
 
 $(document).ready(function() {
 	svg4everybody();
+
+	$('.promo__button').on('click',function(){
+		$(this).hide();
+		$('.signup__gift').slideUp();
+		$('.signup__gift--active').slideDown();
+		$('.promo-confirm').show();
+	})
 });

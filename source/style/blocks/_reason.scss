@@ -1,6 +1,6 @@
 .reasons{
 	background-color: $lightBlue;
-	padding: 60px 0 78px;
+	padding: 4.5rem 0 4.3rem;
 	&__btn{
 		width: 275px;
 		height: 58px;
@@ -14,6 +14,7 @@
 		height: 84px;
 	}
 	&__text{
+		width: 157px;
 		font-size: 18px;
 		font-weight: $bold;
 		color: $headerColor;
@@ -29,7 +30,7 @@
 		}
 	}
 }
-@media (max-width: 1200px){
+@media (max-width: 991px){
 	.reasons__text{
 		&:before{
 			display: block;
@@ -52,14 +53,30 @@
 		font-weight: $bold;
 	}
 }
-@media (max-width: 430px){
+@media (max-width: 480px){
 	.section__header-red{
-		font-size: 34px;
+		font-size: 33px;
 	}
 	.section__header-black{
 		font-size: 28px;
 	}
-	.footer .section__header{
-		font-size: 25px;
+}
+@media (max-width: 320px){
+	.reasons{
+		padding: 2rem 0 1.75rem;
+		.section__header{
+			margin-bottom: 2rem;
+		}
+		.section__header-black{
+			font-size: 27px;
+		}
+	}
+}
+@media (max-width: 480px){
+	.reasons{
+		padding: 2.5rem 0 2.25rem;
+		.section__header{
+			margin-bottom: 3rem;
+		}
 	}
 }

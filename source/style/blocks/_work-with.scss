@@ -4,7 +4,7 @@
 		box-shadow: 0 0 4px rgba(100,100,100,.5);
 		border-radius: 5px;
 	}
-	padding: 76px 0 66px;
+	padding: 4.5rem 0 4.3rem;
 	background-color: rgba(244,246,251,.52);
 	&__header{
 		font-size: 16px;
@@ -19,6 +19,9 @@
 		color: $headerColor;
 		font-weight: $bold;
 		margin-bottom: 0;
+	}
+	&__list{
+		width: 75%;
 	}
 }
 .youtube__item{
@@ -82,5 +85,15 @@
 				margin-bottom: 10px;
 			}
 		}
+	}
+}
+@media (max-width: 320px){
+	.work-with{
+		padding: 2rem 0 1.75rem;
+	}
+}
+@media (max-width: 480px){
+	.work-with{
+		padding: 2.5rem 0 2.25rem;
 	}
 }

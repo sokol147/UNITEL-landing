@@ -58,6 +58,12 @@
 		font-size: 13px;
 		color: $textColor;
 		font-weight: $medium;
+		&--active{
+			display: none;
+			color: $red;
+			font-weight: $bold;
+			font-size: 38px;
+		}
 		&:before{
 			content: url(../images/icon-coupon-code.svg);
 			width: 16px;
@@ -77,6 +83,16 @@
 			margin-right: 12px;
 		}
 	}
+}
+.promo-confirm{
+	display: none;
+	height: 21px;
+	width: 21px;
+	position: absolute;
+	right: 11px;
+	top: 35px;
+	background-image: url(../images/icon-check.svg);
+	background-repeat: no-repeat;
 }
 .work{
 	&__item{

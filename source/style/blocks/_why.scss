@@ -1,5 +1,5 @@
 .why{
-	padding: 87px 0 60px;
+	padding: 4.5rem 0 4.3rem;
 	&__header{
 		color: $headerColor;
 		font-size: 29px;
@@ -9,5 +9,24 @@
 		font-size: 16px;
 		color: $textColor;
 		font-weight: $medium;
+	}
+}
+@media (max-width: 480px){
+	.why{
+		padding: 2.5rem 0 2.25rem;
+		.section__header{
+			margin-bottom: 3rem;
+		}
+		.section__heade-red{
+			font-size: 33px;
+		}
+	}
+}
+@media (max-width: 320px){
+	.why{
+		padding: 2rem 0 1.75rem;
+		.section__header-black{
+			font-size: 27px;
+		}
 	}
 }
