@@ -1,4 +1,8 @@
 .thank{
+	.copyright{
+		font-size: 15px;
+		color: rgba(91,96,107,.42);
+	}
 	&__download{
 		max-width: 360px;
 		color: $textColor;
@@ -42,6 +46,21 @@
 	margin-left: -55px;
 	margin-bottom: 6px;
 }
+.app-store-icon{
+	@include retina-sprite($appstore-button-group);
+	margin-left: auto;
+}
+.google-store-icon{
+	@include retina-sprite($playstore-button-group);
+}
+@media (max-width: 576px){
+	.app-store-icon{
+		margin: 0 auto;
+	}
+	.google-store-icon{
+		margin: 0 auto;
+	}
+}
 @media (max-width: 765px){
 	.i-arrow{
 		display: none;
@@ -49,6 +68,20 @@
 }
 @media (max-width: 480px){
 	.thank__header{
-		font-size: 40px;
+		font-size: 38px;
+	}
+	.thank__subheader{
+		font-size: 18px;
+	}
+	.thank{
+		.send-to{
+			font-size: 14px;
+		}
+	}
+	.thank__download{
+		font-size: 13px;
+	}
+	.thank__info{
+		padding: 0;
 	}
 }

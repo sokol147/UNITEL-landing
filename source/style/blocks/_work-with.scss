@@ -1,11 +1,12 @@
 .work-with{
-	&__icon{
-		display: inline-block;
-		box-shadow: 0 0 4px rgba(100,100,100,.5);
-		border-radius: 5px;
-	}
 	padding: 4.5rem 0 4.3rem;
 	background-color: rgba(244,246,251,.52);
+	&__icon{
+		display: inline-block;
+		/* box-shadow: 0 0 4px rgba(100,100,100,.5); */
+		border: 1px solid #e3e3e3;
+		border-radius: 5px;
+	}
 	&__header{
 		font-size: 16px;
 		color: $headerColor;

@@ -1,12 +1,12 @@
 .pricing{
-	padding: 4.5rem 0 4.3rem;
+	padding: 7rem 0;
 	&__item{
 		box-shadow: 0 3px 34px 0 rgba(0,0,0,.1);
 		border-radius: 7px;
 	}
 }
 .item__descr{
-	color: $textColor;
+	color: $textLightGrey;
 	font-size: 15px;
 }
 .item-free{
@@ -55,7 +55,7 @@
 	}
 	&__time{
 		color: $white;
-		font-size: 39px;
+		font-size: 29px;
 		font-weight: $bold;
 		border-radius: 7px 7px 0 0;
 		background-color: $blue;

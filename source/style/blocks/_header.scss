@@ -3,10 +3,13 @@
 }
 .navbar-nav{
 	.nav-link{
-		color: $headerColor;
-		font-weight: $bold;
+		color: $textLightGrey;
+		font-weight: $medium;
+		&:hover{
+			color: $textColor;
+		}
 	}
 }
 .button-header{
-	padding: 6px 26px 4px !important;
+	padding: 9px 26px 8px !important;
 }

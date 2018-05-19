@@ -19,6 +19,7 @@
 	}
 	.send-to{
 		font-size: 15px;
+		color: $textColor;
 	}
 	.copyright{
 		font-size: 15px;
@@ -31,7 +32,7 @@
 .forgot-btn{
 	position: absolute;
 	bottom: 0;
-	right: 48px;
+	right: 0;
 	font-size: 15px;
 	font-weight: $medium !important;
 	background-color: $blue !important;
@@ -59,12 +60,14 @@
 		order: -1;
 	}
 }
+@media (max-width: 480px){
+	.forgot .thank__header{
+		font-size: 40px;
+	}
+}
 @media (max-width: 320px){
 	.oops-alert{
 		padding: 6px 7px;
-	}
-	.thank__header{
-		font-size: 40px !important;
 	}
 }
 .custom-select.is-invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid{

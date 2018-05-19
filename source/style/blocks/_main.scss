@@ -4,15 +4,17 @@
 	}
 }
 .main-screen{
-	padding: 7rem 0;
+	padding: 11rem 0;
 	&__header{
 		font-size: 53px;
 		font-weight: $bold;
 		max-width: 450px;
+		color: $textBlue;
 	}
 	&__text{
 		font-size: 29px;
-		font-weight: $medium;
+		font-weight: $regular;
+		color: $textGrey;
 	}
 	&__link{
 		color: $red;

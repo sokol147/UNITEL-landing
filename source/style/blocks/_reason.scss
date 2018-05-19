@@ -1,6 +1,6 @@
 .reasons{
 	background-color: $lightBlue;
-	padding: 4.5rem 0 4.3rem;
+	padding: 7rem 0;
 	&__btn{
 		width: 275px;
 		height: 58px;
@@ -14,9 +14,9 @@
 		height: 84px;
 	}
 	&__text{
-		width: 157px;
-		font-size: 18px;
-		font-weight: $bold;
+		/* width: 157px; */
+		font-size: 21px;
+		font-weight: $medium;
 		color: $headerColor;
 		position: relative;
 		&:before{
@@ -40,15 +40,15 @@
 .section__header{
 	margin-bottom: 5rem;
 	&-black{
-		font-size: 39px;
-		max-width: 520px;
+		font-size: 53px;
+		max-width: 640px;
 		margin: 0 auto;
 		font-weight: $bold;
 		color: $headerColor;
 	}
 	&-red{
-		font-size: 39px;
-		color: $red;
+		font-size: 32px;
+		color: $darkRed;
 		width: 100%;
 		font-weight: $bold;
 	}

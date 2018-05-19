@@ -1,11 +1,13 @@
 body, html{
 	margin:0;
 	height: 100%;
-	font-family: 'Montserrat', sans-serif !important;
+	font-family: 'Roboto', sans-serif !important;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 }
 html{
 	font-size: 16px;
-	line-height: 1.42;
+	line-height: 1.6;
 	-webkit-font-smoothing:antialised;
 }
 h1,h2,h3,h4,h5,h6{

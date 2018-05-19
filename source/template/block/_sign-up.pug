@@ -1,17 +1,3 @@
-- var reasonList = ['No Advertising', 'Hight speed', 'Unlimited traffic','99% Uptime','Simple to use'];
--
-	var workwithList = [
-		{
-			class: 'youtube',
-			text: 'Youtube Vidios'
-		},{
-			class: 'casino',
-			text: 'Online casinos'
-		},{
-			class: 'dault',
-			text: 'Adult websites'
-		}
-	]
 section.signup.mt-5
 	.container
 		.row
@@ -50,7 +36,7 @@ section.signup.mt-5
 							.col-12
 								.signup__terms.pt-4
 									.custom-control.custom-checkbox
-										input.custom-control-input(type='checkbox' id='terms')
+										input.custom-control-input(type='checkbox' id='terms' required)
 										label.custom-control-label(for='terms') I agree with 
 											a.label__link(href='#') terms and conditions 
 										.invalid-feedback You mastagree with our terms and conditions
