@@ -14,6 +14,7 @@
 		min-width: 105px;
 		margin-bottom: 0;
 		margin-right: 20px;
+		padding-top: 20px;
 	}
 	&__text{
 		font-size: 13px;
@@ -37,7 +38,7 @@
 }
 .adult__item{
 	.work-with__text{
-		max-width: 103px;
+		max-width: 81px;
 	}
 }
 .i-youtube{
@@ -49,6 +50,12 @@
 .i-adult{
 	@include retina-sprite($adult-websites-group);
 }
+.i-shopping{
+	@include retina-sprite($online-shopping-group);
+}
+.i-sharing{
+	@include retina-sprite($p2p-sharing-group);
+}
 .i-android{
 	@include retina-sprite($android-group);
 }
@@ -57,6 +64,9 @@
 }
 
 @media (max-width: 768px){
+	.work-with__text{
+		display: none;
+	}
 	.work-with__item{
 		width: 33.33%;
 	}
@@ -76,7 +86,14 @@
 		width: 100%;
 	}
 }
-@media (max-width: 412px){
+@media (max-width: 411px){
+	.work-with__list{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.work-with__item{
+		margin-bottom: 10px;
+	}
 	.avaliable__list{
 		flex-wrap: wrap;
 		width: 100%;

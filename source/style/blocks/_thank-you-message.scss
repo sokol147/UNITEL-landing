@@ -28,13 +28,15 @@
 	&__subheader{
 		color: $headerColor;
 		font-size: 20px;
-		font-weight: $medium;
+		font-weight: $bold;
 	}
 	&__icon{
 		width: 64px;
 		height: 64px;
 	}
 	.send-to{
+		max-width: 550px;
+		margin: 0 auto 1rem;
 		color: $textColor;
 		font-size: 15px;
 		font-weight: $regular;
@@ -46,18 +48,18 @@
 	margin-left: -55px;
 	margin-bottom: 6px;
 }
-.app-store-icon{
-	@include retina-sprite($appstore-button-group);
+.app-store-btn-icon{
+	@include retina-sprite($btn-appstore-group);
 	margin-left: auto;
 }
-.google-store-icon{
-	@include retina-sprite($playstore-button-group);
+.google-store-btn-icon{
+	@include retina-sprite($btn-playstore-group);
 }
 @media (max-width: 576px){
-	.app-store-icon{
+	.app-store-btn-icon{
 		margin: 0 auto;
 	}
-	.google-store-icon{
+	.google-store-btn-icon{
 		margin: 0 auto;
 	}
 }
