@@ -19,15 +19,6 @@
 $(document).ready(function() {
 	svg4everybody();
 
-//Promocode input
-	$('.promo__button').on('click',function(){
-		$(this).hide();
-		$('.signup__gift').slideUp();
-		$('.signup__gift--active').slideDown();
-		$('.promo-confirm').show();
-	});
-
-
 //Scroll to section
   $('.nav-link').on('click', function(e){
     e.preventDefault();

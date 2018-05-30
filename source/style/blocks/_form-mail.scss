@@ -1,0 +1,14 @@
+.form-mail{
+	position: relative;
+	&__input{
+		border-radius: 50px !important;
+		padding: 0.67rem 0.95rem !important;
+	}
+	&__button{
+		position: absolute;
+		right: 5px;
+		top: 50%;
+		transform: translatey(-50%);
+		border-radius: 50px !important;
+	}
+}
