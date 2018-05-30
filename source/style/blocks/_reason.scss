@@ -32,6 +32,8 @@
 }
 @media (max-width: 991px){
 	.reasons__text{
+		width: 151px;
+		margin-left: 21px;
 		&:before{
 			display: block;
 		}

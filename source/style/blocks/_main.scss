@@ -1,6 +1,9 @@
 .main{
 	.container{
-		background: url(../images/hero-img.png) no-repeat 98% center;
+		background: url(../images/hero-image.png) no-repeat 98% center;
+	}
+	&__picture{
+		display: none;
 	}
 }
 .main-screen{
@@ -34,9 +37,18 @@
 		line-height: 58px;
 	}
 }
-
 @media (max-width: 991px){
 	.main{
+		&__picture{
+			display: block;
+			margin: 1.5rem 0;
+		}
+		&__image{
+			display: block;
+			&-big{
+				display: none;
+			}
+		}
 		.container{
 			background: none;
 		}
@@ -59,5 +71,17 @@
 	}
 	.main-screen__text{
 		font-size: 21px;
+	}
+}
+@media (-webkit-min-device-pixel-ratio:2)
+,(-o-min-device-pixel-ratio:2/1)
+,(min-resolution:192dpi){
+	.main__image{
+		display: none;
+		&-big{
+			display: block;
+			max-width: 100%;
+			width: 150px;
+		}
 	}
 }

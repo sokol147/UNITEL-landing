@@ -88,7 +88,6 @@
 }
 @media (max-width: 411px){
 	.work-with__list{
-		flex-wrap: wrap;
 		justify-content: center;
 	}
 	.work-with__item{
@@ -98,10 +97,19 @@
 		flex-wrap: wrap;
 		width: 100%;
 		.work-with__item{
-			width: 100%;
 			&:first-child{
 				margin-bottom: 10px;
 			}
+		}
+	}
+}
+@media (max-width: 359px){
+	.work-with__list{
+		flex-wrap: wrap;
+	}
+	.avaliable__list{
+		.work-with__item{
+			width: 100%;
 		}
 	}
 }
