@@ -1,3 +1,16 @@
 .main{
-	
+	padding: 3.5rem 0 5.5rem;
+	&__text{
+		font-size: 28px;
+		font-weight: $light;
+		color: $textColorHeader;
+	}
+	&__header{
+		font-size: 56px;
+		color: $textColorHeader;
+		span{
+			display: inline-block;
+			width: 100%;
+		}
+	}
 }

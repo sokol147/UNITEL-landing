@@ -15,3 +15,29 @@ $status-colors: (
   warning: #FF8833,
   danger: #ff1a1a
 );
+.border-top-dashed{
+	border-top: 1px dashed rgba(255,255,255,.26);
+}
+.header-purple--light{
+	color: $purple;
+	font-weight: $light;
+	font-size: 28px;
+}
+.header-blue{
+	color: $blue;
+	font-size: 24px;
+	font-weight: $light;
+}
+.header-white{
+	color: $textColorWhite;
+	font-size: 36px;
+}
+.text-purple{
+	color: $textColorDarkPurple;
+	font-size: 28px;
+	font-weight: $light;
+	span{
+		display: inline-block;
+		width: 100%;
+	}
+}

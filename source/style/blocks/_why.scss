@@ -1,0 +1,19 @@
+.why{
+	padding: 5.3rem 0;
+	background-color: $backgroundGrey;
+	.header-purple--light{
+		span{
+			width: 100%;
+			display: inline-block;
+		}
+	}
+	&__item{
+		color: $textColorGrey;
+		font-size: 18px;
+		&:before{
+			content: url(../images/check-icon.svg);
+			display: inline-block;
+			margin-right: 5px;
+		}
+	}
+}

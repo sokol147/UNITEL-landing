@@ -1,0 +1,23 @@
+.how-it-work{
+	padding: 8.125rem 0 6.125rem;
+	background: linear-gradient(to left top, $blue, $purple);
+	&__text{
+		font-size: 24px;
+		font-weight: $light;
+		color: $textColorWhite;
+	}
+	&__header{
+		margin-bottom: 5.3rem;
+	}
+	&__block{
+		margin-bottom: 6.25rem;
+	}
+	.mail-form{
+		max-width: 100% !important;
+		padding-top: 3.56rem;
+		.header-white{
+			max-width: 455px;
+			display: inline-block;
+		}
+	}
+}

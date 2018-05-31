@@ -1,14 +1,38 @@
 .form-mail{
 	position: relative;
+	max-width: 550px;
+	width: 100%;
 	&__input{
 		border-radius: 50px !important;
-		padding: 0.67rem 0.95rem !important;
+		padding: 0.87rem 0.95rem !important;
+		&::-webkit-input-placeholder{
+			font-size: 18px;
+		}
+		&::-moz-placeholder{
+			font-size: 18px;
+		}
 	}
 	&__button{
+		color: $textColorWhite;
+		display: block;
+		height: 43px;
+		line-height: 43px;
+		border: none;
+		width: 190px;
+		font-size: 18px;
+		background-color: $purple;
 		position: absolute;
-		right: 5px;
+		right: 6px;
 		top: 50%;
 		transform: translatey(-50%);
-		border-radius: 50px !important;
+		border-radius: 50px;
+		transition: all .3s;
+		font-weight: $bold;
+		font-size: 18px;
+		font-family: 'Lato', sans-serif;
+		&:hover{
+			background-color: darken($purple, 10%);
+			cursor: pointer;
+		}
 	}
 }
