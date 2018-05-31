@@ -1,0 +1,20 @@
+.technology{
+	padding: 13.15rem 0 6.8rem;
+	&__descr{
+		p{
+			color: $textColorGrey;
+		}
+	}
+	&__list{
+		font-size: 18px;
+		column-count: 2;
+	}
+	&__name{
+		white-space: nowrap;
+	}
+	&__icon{
+		text-align: center;
+		width: 44px;
+		margin-right: 1rem;
+	}
+}

@@ -23,6 +23,15 @@ $status-colors: (
 	font-weight: $light;
 	font-size: 28px;
 }
+.section__header{
+	font-size: 36px;
+	color: $textColorHeader;
+}
+.section__description{
+	font-size: 24px;
+	color: $textColorHeader;
+	font-weight: $light;
+}
 .header-blue{
 	color: $blue;
 	font-size: 24px;
