@@ -1,3 +1,10 @@
 .header{
 	padding: 2.375rem 0;
+	.nav-link{
+		color: $textColorNav !important;
+		transition: all .3s;
+		&:hover{
+			color: darken($textColorNav, 10%) !important;
+		}
+	}
 }

@@ -1,6 +1,13 @@
 .why{
-	padding: 5.3rem 0;
+	padding: 5rem 0 3rem;
 	background-color: $backgroundGrey;
+	&-image{
+		position: absolute;
+		max-width: 100%;
+		&__wrapper{
+			position: relative;
+		}
+	}
 	.header-purple--light{
 		span{
 			width: 100%;
@@ -15,5 +22,32 @@
 			display: inline-block;
 			margin-right: 5px;
 		}
+	}
+}
+.image-shadow{
+	box-shadow: 0 2px 30px rgba(100, 100, 100, .5);
+}
+@media (max-width: 998px){
+	.why-image__wrapper{
+		height: 350px;
+	}
+	.why-image{
+		left: 50%;
+		transform: translatex(-50%);
+	}
+}
+@media (max-width: 765px){
+	.why-image__wrapper{
+		height: 280px;
+	}
+}
+@media (max-width: 480px){
+	.why-image__wrapper{
+		height: 190px;
+	}
+}
+@media (max-width: 360px){
+	.why-image__wrapper{
+		height: 115px;
 	}
 }

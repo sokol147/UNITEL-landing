@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="391" height="364" viewBox="0 0 391 364">
+  <g fill="none" fill-rule="evenodd" transform="translate(-3 -8)">
+    <g fill="#51D6D0" font-family="Lato-Bold, Lato" font-weight="bold" transform="translate(121 48)">
+      <text font-size="39">
+        <tspan x=".38" y="38">30</tspan>
+      </text>
+      <text font-size="11">
+        <tspan x="11.148" y="53">days</tspan>
+      </text>
+    </g>
+    <text fill="#00B1E7" font-family="Lato-Bold, Lato" font-size="13" font-weight="bold">
+      <tspan x="22.071" y="337">TRADITIONAL INSURANCE</tspan>
+    </text>
+    <text fill="#673AB7" font-family="Lato-Bold, Lato" font-size="13" font-weight="bold">
+      <tspan x="285.543" y="337">UBITEL</tspan>
+    </text>
+    <text fill="#5C6870" font-family="Lato-Medium, Lato" font-size="13" font-weight="400" opacity=".448">
+      <tspan x="7" y="371">* Lithuania Market Data.</tspan>
+    </text>
+    <rect width="198" height="94" x="48" y="170" fill="#51D6D0" transform="rotate(-90 147 217)"/>
+    <rect width="247" height="94" x="-70.5" y="145.5" fill="#3686FF" transform="rotate(-90 53 192.5)"/>
+    <rect width="108" height="94" x="207" y="215" fill="#673AB7" transform="rotate(-90 261 262)"/>
+    <rect width="56" height="85.629" x="322.814" y="245.186" fill="#00B1E7" transform="rotate(-90 350.814 288)"/>
+    <text fill="#FFF" font-family="Lato-Black, Lato" font-size="10" font-weight="700">
+      <tspan x="28.91" y="294">AVERAGE</tspan> <tspan x="39.51" y="306">COST</tspan>
+    </text>
+    <text fill="#3686FF" font-family="Lato-Bold, Lato" font-size="39" font-weight="bold">
+      <tspan x=".96" y="38">103€*</tspan>
+    </text>
+    <text fill="#00B1E7" font-family="Lato-Bold, Lato" font-size="33" font-weight="bold">
+      <tspan x="320.267" y="246">24h.</tspan>
+    </text>
+    <text fill="#673AB7" font-family="Lato-Bold, Lato" font-size="39" font-weight="bold">
+      <tspan x="219.27" y="181">51€*</tspan>
+    </text>
+    <text fill="#673AB7" font-family="Lato-Bold, Lato" font-size="11" font-weight="bold">
+      <tspan x="239.142" y="196">per year</tspan>
+    </text>
+    <text fill="#FFF" font-family="Lato-Black, Lato" font-size="10" font-weight="700">
+      <tspan x="120.41" y="294">AVERAGE </tspan> <tspan x="112.35" y="306">CLAIMS TIME</tspan>
+    </text>
+    <text fill="#FFF" font-family="Lato-Black, Lato" font-size="10" font-weight="700">
+      <tspan x="239.91" y="294">AVERAGE</tspan> <tspan x="250.51" y="306">COST</tspan>
+    </text>
+    <text fill="#FFF" font-family="Lato-Black, Lato" font-size="10" font-weight="700">
+      <tspan x="326.91" y="294">AVERAGE </tspan> <tspan x="318.85" y="306">CLAIMS TIME</tspan>
+    </text>
+  </g>
+</svg>

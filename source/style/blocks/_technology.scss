@@ -1,5 +1,8 @@
 .technology{
-	padding: 13.15rem 0 6.8rem;
+	padding: 10.15rem 0 6.8rem;
+	&__image{
+		max-width: 100%;
+	}
 	&__descr{
 		p{
 			color: $textColorGrey;
@@ -16,5 +19,13 @@
 		text-align: center;
 		width: 44px;
 		margin-right: 1rem;
+	}
+}
+@media (max-width: 750px){
+	.technology__list{
+		column-count: 1;
+	}
+	.technology__name{
+		white-space: normal;
 	}
 }

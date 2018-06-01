@@ -1,3 +1,21 @@
 .problem{
 	padding: 1rem 0 4rem;
+	&-image{
+		max-width: 100%;
+		position: absolute;
+		&__wrapper{
+			position: relative;
+		}
+	}
+}
+.section__problem{
+	padding-top: 13.5rem;
+}
+@media (max-width: 998px){
+	.problem-image{
+		position: relative;
+	}
+	.section__problem{
+		padding-top: 6rem;
+	}
 }

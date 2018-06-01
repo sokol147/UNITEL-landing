@@ -1,4 +1,36 @@
 .solution{
 	background-color: $backgroundGrey;
-	padding: 11rem 0 2rem;
+	padding: 0 0 3.5rem;
+	.section__descr{
+		padding-top: 10rem;
+	}
+	&-image{
+		max-width: 100%;
+		position: absolute;
+		&__wrapper{
+			position: relative;
+		}
+	}
+}
+@media (max-width: 998px){
+	.solution .section__descr{
+		padding-top: 5rem;
+	}
+	.solution-image__wrapper{
+		height: 395px;
+	}
+	.solution-image{
+		left: 50%;
+		transform: translatex(-50%);
+	}
+}
+@media (max-width: 480px){
+	.solution-image__wrapper{
+		height: 275px;
+	}
+}
+@media (max-width: 360px){
+	.solution-image__wrapper{
+		height: 180px;
+	}
 }

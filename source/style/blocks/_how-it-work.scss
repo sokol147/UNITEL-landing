@@ -1,6 +1,20 @@
 .how-it-work{
 	padding: 8.125rem 0 6.125rem;
 	background: linear-gradient(to left top, $blue, $purple);
+	.header-white{
+		position: relative;
+		&:before{
+			position: absolute;
+			content: url(../images/arrow-down.svg);
+			left: 50%;
+			transform: translatex(-50%);
+			top: -50px;
+			animation: bounce 2s ease-in-out infinite alternate both;
+		}
+	}
+	&__image{
+		max-width: 100%;
+	}
 	&__text{
 		font-size: 24px;
 		font-weight: $light;
@@ -19,5 +33,17 @@
 			max-width: 455px;
 			display: inline-block;
 		}
+	}
+}
+.how-it-work__image[src='templates/images/how-it-works-1.png']{
+	margin-top: -30px;
+}
+
+@keyframes bounce{
+	100% {
+		top: -55px;
+	}
+	0% {
+		top: -50px;
 	}
 }
